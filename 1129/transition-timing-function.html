@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 50px;
+            background: crimson;
+            color: yellow;
+            border: 1px solid black;
+            transition: width 3s;
+        }
+        #div1{ transition-timing-function: linear;}
+        #div1{ transition-timing-function: ease;}
+        #div1{ transition-timing-function: ease-in;}
+        #div1{ transition-timing-function: ease-out;}
+        #div1{ transition-timing-function: ease-in-out;}
+        #div1{ transition-timing-function: cublic-bezier(0.1,0.0,0.1,1.0);}
+        div:hover{ width: 400px;}
+    </style>
+</head>
+<body>
+    <!-- 속도의 차이가 있음 -->
+    <div id="div1" style="top: 100px">linear</div>
+    <div id="div2" style="top: 150px">ease</div>
+    <div id="div3" style="top: 200px">ease-in</div>
+    <div id="div4" style="top: 250px">ease-out</div>
+    <div id="div5" style="top: 300px">ease-in-out</div>
+    <div id="div5" style="top: 350px">cublic-bezier</div>
+</body>
+</html>

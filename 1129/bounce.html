@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* ease-in 애니메이션이 천천히 시작되고 최고 속도로 끝납니다.
+        ease-out 애니메이션을 최고 속도로 시작한 다음 천천히 완료합니다.
+        ease-in-out 느리게 시작되고 애니메이션 중간에서 가장 빨라진 다음 천천히 완료됩니다.
+        ease처럼 ease-in-out이 빨리 종료보다 약간 시작 제외. */
+        @keyframes bounce{
+            from, to{
+                bottom: 0px;
+                animation-timing-function: ease-out;
+            }
+            50%{
+                bottom: 200px;
+                animation-timing-function: ease-in;
+            }
+        }
+        div{
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border-radius: 10px;
+            animation-name: bounce;
+            animation-iteration-count: infinite; /* 무한 반복*/
+        }
+        #b1{
+            left: 10px;
+            background: red;
+            animation-duration: 5s;
+        }
+        #b2{
+            left: 50px;
+            background: blue;
+            animation-duration: 10s;
+        }
+        #b3{
+            left: 90px;
+            background: green;
+            animation-duration: 3s;
+        }
+        #b4{
+            left: 130px;
+            background: silver;
+            animation-duration: 8s;
+        }
+        #b5{
+            left: 170px;
+            background: black;
+            animation-duration: 1s;
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="b1"></div>
+    <div id="b2"></div>
+    <div id="b3"></div>
+    <div id="b4"></div>
+    <div id="b5"></div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .v1{
+            visibility: hidden;
+            border: 1px dotted red;
+        }
+        .v2{
+            visibility: visible;
+            border: 1px dotted red;
+        }
+        .v3{
+            display: none;
+            border: 1px dotted red;
+        }
+    </style>
+</head>
+<body>
+    <div class="v1">
+        <!-- 보이지 않도록 설정: 공간 있음 -->
+        <img src="../images/bbyong.png" width="100">
+    </div>
+    <div class="v2">
+        <img src="../images/bbyong.png" width="100">
+    </div>
+    <div class="v3">
+        <!-- 보이지 않도록 설정 : 공간삭제  display:none으로 해서 없앴다가 나중에 다시 보이게 하고싶을 때 사용-->
+        <img src="../images/bbyong.png" width="100">
+    </div>
+    <div class="v2">
+        <img src="../images/bbyong.png" width="100">
+    </div>
+</body>
+</html>

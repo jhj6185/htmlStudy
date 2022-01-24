@@ -1,0 +1,238 @@
+/* 초기화 :브라우저에서 제공하는 것을초기화 할거임 */
+*{margin:0; padding: 0;}
+body{font-family: sans-serif; background-color:white;
+    font-family: 'Noto Sans KR', sans-serif;}
+li{list-style: none;}
+a{text-decoration: none;}
+img{border: 0;}
+
+fieldset {
+    text-align: center;
+    border-color:black;
+    width : 100px;
+    margin: 0 auto;
+    margin-top: 10%;
+    padding-bottom: 50px;
+}
+
+input {
+    block-size: 30px;
+    width:230px;
+    height: 50px;
+    border-color: white;
+    background: transparent;
+    color:black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px gray;
+}
+
+.btn_login{
+    background-color: #f76e05;
+}
+
+/* 로고 이미지 크기 */
+.logo360{
+    width:360px; 
+    height:270px;
+}
+.logo160{
+    width: 160px;
+    height: 270px;
+}
+
+/* footer */
+.gray-box{
+    background-color: #666;
+    width:973px;
+    margin-left: 6px;
+    height:100px;
+    display: flex;
+    padding-top: 20px;
+}
+.flex1{
+    flex:1;
+}
+.copyright{
+    padding-top:10px;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+/* 회원가입 */
+
+#signup{
+    border-color: black;
+    width : 600px;
+    margin: 0 auto;
+    margin-top: 10%;
+    padding-bottom: 50px;
+}
+
+#signup>#login{
+    margin : 0 auto;
+    width: 500px;
+    margin-top: 5%;
+    padding-left:25%;
+}
+
+#signup>#login>.button{
+    margin:0 auto;
+    width:100px; 
+    height:30px;
+    background-color: #F0AD4E;
+    border-radius:10px 10px 10px 10px;
+    border: 2px solid black;
+}
+
+/* classDater */
+.tablestyle{
+    border:0;
+    width: 875px;
+}
+.tablebg{
+    background-color: #666;
+    color:white;
+    border-bottom: 1px solid black;
+    
+}
+.tablebg2{
+    background-color: white;
+    border-bottom: 1px solid #ededed;
+    
+}
+.tablebg3{
+    background-color: #ededed;
+    border-bottom: 1px solid #ededed;
+}
+.tableP{
+    padding: 10px;
+}
+.table100{
+    width: 100px;
+}
+.table700{
+    width: 700px;
+}
+.subject_container{
+width: 985px;
+grid-column: 2/5;
+margin:0px;
+}
+
+/* 글쓰기 */
+
+.orange_smallarea {
+    width: 600px !important;
+    height: 70px !important;
+    padding: 10px !important;
+    box-sizing: border-box !important;
+    border: solid 2px #ededed !important;
+    border-radius: 5px !important;
+    font-size: 16px !important;
+    resize: both !important;
+ }
+ .orange_text{
+       width: 700px ;
+       height: 40px ;
+       padding: 10px;
+       box-sizing: border-box;
+        border: solid 2px #ededed;
+        border-radius: 5px;
+        font-size : 16px ;
+        resize: both ;
+       margin-bottom: 10px;
+   }
+   .orange_btn{
+       width:100px ;
+       height : 40px ;
+       border-radius: 10% ;
+       border: 0px ;
+       background-color: #f76e05 ;
+       color: white ;
+       font-weight: 700 ;
+       float: right ;
+       margin:5px ;
+   }
+   .gray_btn{
+       width:100px ;
+       height : 40px ;
+       border-radius: 10% ;
+       border: 0px ;
+       background-color: #ededed ;
+       color: black ;
+       font-weight: 700 ;
+       float: right ;
+       margin:5px ;
+   }
+   .gray_btn_left{
+    width:100px;
+    height : 40px;
+    border-radius: 10%;
+    border: 0px;
+    background-color: #ededed;
+    color: black;
+    font-weight: 700;
+    float: left;
+    margin:5px;
+}
+    .gray_btn_down{
+        width:100px;
+    height : 40px;
+    border-radius: 10%;
+    border: 0px;
+    background-color: #ededed;
+    color: black;
+    font-weight: 700;
+    margin:5px;
+    }
+    .gray_btn_big{
+       width:100px ;
+       height : 70px ;
+       border-radius: 10% ;
+       border: 0px ;
+       background-color: #ededed ;
+       color: black ;
+       font-weight: 700 ;
+       float: right ;
+       margin:0px 5px 5px 5px;
+    }
+   .write-box{
+       width:700px;
+   }
+
+   /* 글쓰기 뷰 */
+   .hrStyle{
+       margin-top:10px;
+       margin-bottom:10px;
+   }
+
+   /* size */
+   .size710{
+       width:710px !important;
+   }
+
+   /* leftbar 수강과목 */
+div.container{
+    border: 1px solid black;
+    text-align: center;
+    line-height: 50px;
+    width: 150px;
+    margin: 3%;
+    display: block;
+    padding: 5px 0 5px 0;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    cursor: pointer;
+    float: left;
+    grid-column: 1/5;
+}
+.select:hover{
+    background-color: #f76e05;
+}
+
+/* 수강과목 메인 페이지 */
+.big-wrap{
+    display:grid;
+}
